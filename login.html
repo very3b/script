@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>auto login</title>
+	<script> 
+		function loginForm{
+			document.myform.action="";
+			document.myform.submit();
+		}
+	</script>
+
+<body onLoad="loginForm()">
+	<form name="myform" method="POST">
+		<input type="hidden" name="email" value="myemail@gg.com">
+		<input type="hidden" name="password" value="mypassword"
+	</form>
+</body>
+
+<html>
